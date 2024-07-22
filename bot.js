@@ -30,7 +30,7 @@ function printPrimes(chatId) {
       }
     }
     i++;
-    setTimeout(printPrimeMessage, 100); // Add a delay to avoid rate limiting
+    setTimeout(printPrimeMessage, 300); // Add a delay to avoid rate limiting
   }
   printPrimeMessage();
 }
